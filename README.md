@@ -9,3 +9,7 @@ Alexandre Barachant, Dano Morrison, Hubert Banville, Jason Kowaleski, Uri Shaked
 
 Also adapted from ChilloutCharles BrainFlowsIntoVRChat found at https://github.com/ChilloutCharles/BrainFlowsIntoVRChat
 ChilloutCharles can be found at: https://linktr.ee/ChilloutCharles
+
+If a user has never used Telekinesis before, the first program to run is TeleDataPKL.py. This program will collect data for each intended action from the EEG.
+After running TeleDataPKL.py, TeleRNNPKL.py should be run to train an AI on the recorded data.
+If a user has trained an AI on their data, TeleRoverConnection should be run to connect the EEG to the rover through the AI.
